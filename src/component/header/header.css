@@ -1,0 +1,22 @@
+.header {
+    background-color: brown;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-img img {
+    width: 130px;
+    height: 70px;
+    margin: 10px 0px 0px 30px;
+}
+
+.header-nav a {
+    margin-right: 30px;
+    text-decoration: none;
+    color: white;
+}
+
+.header-nav a:hover {
+    background-color: lightsalmon;
+}

@@ -1,0 +1,152 @@
+.burger-top {
+    width: 300px;
+    height: 80px;
+
+}
+
+.burger-bottom {
+    width: 300px;
+    height: 80px;
+}
+
+.ingredients-img {
+    width: 300px;
+}
+
+.ingredients-img img {
+    max-width: 300px;
+}
+
+.img-meat {
+    height: 15px;
+    width: 300px;
+}
+
+.burger-container h3 {
+    padding-left: 25px;
+}
+
+.burger-container {
+    margin-left: 35%;
+    margin-top: 20px;
+    background-color: white;
+    margin-bottom: 30px;
+}
+
+.burger-ingredients {
+    background-color: peru;
+}
+
+.burger-ingredients h3 {
+    text-align: center;
+}
+
+.salad {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.salad h3 {
+    margin-right: 30px;
+}
+
+.btn-salad {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.burger-ingredients button {
+    width: 90px;
+    height: 35px;
+    border: 1px solid #aa6817;
+    cursor: pointer;
+    color: white;
+}
+
+.btn-more {
+    background-color: #aa6817;
+}
+
+.btn-more:hover {
+    background-color: gray;
+}
+
+.btn-less {
+    background-color: gray;
+}
+
+.cheese {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cheese h3 {
+    margin-right: 20px;
+}
+
+.btn-cheese {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.meat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.meat h3 {
+    margin-right: 32px;
+}
+
+.btn-meat {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tomato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tomato h3 {
+    margin-right: 15px;
+}
+
+.btn-tomato {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.burger-ingredients .register-btn {
+    width: 250px;
+    height: 50px;
+    background-color: #dad735;
+    margin-left: 600px;
+    margin-bottom: 10px;
+}
+
+.register-btn a{
+    color: #966909;
+    text-decoration: none;
+}
+
+.burger-ingredients .register-btn:hover{
+    background-color: olivedrab;
+}
+
+button:disabled {
+    cursor: not-allowed;
+}
+
+button:disabled a {
+    cursor: not-allowed;
+    pointer-events: none;
+}
